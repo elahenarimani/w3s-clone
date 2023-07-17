@@ -1,0 +1,144 @@
+.tv-wrapper{
+    width:100% ;
+    height: 100%;
+    padding: 0 24px;
+    max-width: 932px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.tv-wrapper .tv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tv-wrapper h1{
+    font-size: 50px;
+    margin: 70px 0 20px 0;
+}
+.tv-wrapper .code{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.tv-wrapper .example{
+    margin: 19px 10px;
+}
+.tv-wrapper .circle-wrapper{
+    width: 100%;
+    height: 100%;
+}
+ .tv-wrapper .monitor{
+  width: 100%;
+  height: 100%;
+  background-color: #E3E6E8;
+  /* background-color: #F1F1F1;
+  height: 500px;
+  position: relative; */
+ 
+} 
+.tv-wrapper .monitor .top{
+    width: 100%;
+    
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    height: 46px;
+    padding: 10px;
+    
+    /* position: absolute;
+    top: 5px;
+    /* left:5px */ 
+    
+}
+.tv-wrapper .circle-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+    gap:5px;
+    
+    
+}
+.tv-wrapper .top p{
+    width: 70%;
+    background-color: #FFFFFF;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 5px;margin-right: 20%;
+}
+.tv-wrapper .img-wrapper{
+    width: 100%;
+    height:auto;
+    position: relative;
+}
+.tv-wrapper img{
+    width: 100%; 
+}
+.tv-wrapper .number{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    left:5px;
+    color: white;
+}
+.tv-wrapper .arrow-left{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 5px;
+}
+.tv-wrapper .arrow-right{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    right: 5px;
+}
+.tv-wrapper .caption{
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap; 
+}
+.tv-wrapper .circle-gray{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap:5px;
+}
+.tv-wrapper .shape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tv-wrapper .rect{
+    width: 50px;
+    height: 80px;
+    background-color: #282A35;
+}
+.tv-wrapper .how-to-learn{
+    width: 400px;
+    height: 60px;
+    border-radius: 25px;
+    color: #E3E6E8;
+    background-color: #282A35;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+
+
+
+
+
+
